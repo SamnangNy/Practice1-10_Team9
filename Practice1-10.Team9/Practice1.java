@@ -5,7 +5,7 @@ public class Practice1
   {
     Scanner input = new Scanner(System.in);
     int total = 0;
-    while(total<=50)
+    while(total<=50)  // Loop item
     {
       System.out.print("Input number : ");
       int num_input = input.nextInt();
