@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Practice6{
+public class Practice6 {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
@@ -32,10 +32,12 @@ public class Practice6{
         }
         System.out.println("Number of Positive is  = " + count_positive);
         System.out.println("Number of Negative is  = " + count_negative);
-        System.out.println("\n");
-        System.out.println("<<< For Total >>>");//styel
+        System.out.println("\n"); // line space
+
+        System.out.println("<<< For Total >>>"); //styel
         System.out.println("Total is : " + total);
-        System.out.println("<<< For Average >>>");
+
+        System.out.println("<<< For Average >>>"); 
         average = total / (count_positive + count_negative);
         System.out.println("\n");
         System.out.println("Average is : " + average);

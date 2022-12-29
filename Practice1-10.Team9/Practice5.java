@@ -2,7 +2,7 @@ public class Practice5 {
     public static void main (String [] ages) {
         int  n = 0;
     
-        while (Math.pow(n, 3) < 11000) {
+        while (Math.pow(n, 3) < 11000) {  // condition
 
             if (Math.pow(n + 1, 3) > 11000) //if n+1=23=>fail ;if n=22=>break .
             break;

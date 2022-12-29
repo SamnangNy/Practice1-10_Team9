@@ -5,14 +5,14 @@ public class Practice1
   {
     Scanner input = new Scanner(System.in);
     int total = 0;
-    while(total<=50)  // Loop item
+    while(total <= 50)  // Loop item
     {
       System.out.print("Input number : ");
-      int num_input = input.nextInt();
+      int num_input = input.nextInt();  //user input num
       System.out.println("The total is : " +(total + num_input));
       total++;
-      total= total+num_input;
-      if(total + num_input>50)
+      total = total + num_input;
+      if(total + num_input > 50)  // stop loop when Total >50
       {
         break;
       } 
