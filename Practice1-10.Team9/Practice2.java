@@ -8,7 +8,7 @@ public class Practice2
     while(num < 5)  
     {
       System.out.print("Input any number : ");
-      int num_input = input.nextInt(); // usur input num
+      int num_input = input.nextInt(); // user input num
       if(num_input > 5)  //stop loop when num > 5
       {
         System.out.println("The last number you entered was " + num_input);
